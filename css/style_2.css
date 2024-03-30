@@ -1,0 +1,125 @@
+body,h1,h2,h3,ul,p {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #35424a;
+    border-bottom: 3px solid coral;
+
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+
+}
+.navbar li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 25px 10px;
+    display: inline-block;
+    color: white;
+}
+.navbar li a:hover {
+    color: burlywood;
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(istockphoto-1454110872-1024x1024.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+}
+
+#banner h1  {
+    font-size: 56px;
+    padding-top: 50px;
+    
+}
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+
+}
+#newsletter .left {
+    float: left;
+}
+
+#newsletter .right {
+    float: right;
+}
+
+.right input {
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#newsletter button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: coral;
+    color: #fff;
+}
+
+
+#courses {
+    padding: 30px;
+
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+
+}
+
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    margin-top: 20px;
+}
